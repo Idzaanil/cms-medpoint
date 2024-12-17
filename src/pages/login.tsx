@@ -98,7 +98,7 @@ const Login: React.FC = () => {
 
             {/* Lupa Kata Sandi */}
             <div className="login-forgot-password">
-              <a href="#">Lupa Kata Sandi?</a>
+              {/* <a href="#">Lupa Kata Sandi?</a> */}
             </div>
 
             {/* Tombol Login */}
