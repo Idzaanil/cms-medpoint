@@ -1,0 +1,141 @@
+.login-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .login-left {
+    width: 50%;
+    padding: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-logo img {
+    height: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .login-form-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  .login-subtitle {
+    font-size: 1rem;
+    color: gray;
+    margin-bottom: 24px;
+    text-align: left;
+  }
+  
+  .login-error {
+    color: red;
+    margin-bottom: 16px;
+  }
+  
+  .login-input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 8px;
+  }
+  
+  .login-icon {
+    color: gray;
+    margin-right: 8px;
+  }
+  
+  .login-input {
+    flex: 1;
+    border: none;
+    outline: none;
+  }
+  
+  .login-eye-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: gray;
+  }
+  
+  .login-forgot-password {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 24px;
+  }
+  
+  .login-forgot-password a {
+    color: purple;
+    text-decoration: none;
+  }
+  
+  .login-forgot-password a:hover {
+    color: darkpurple;
+  }
+  
+  .login-button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .login-button {
+    background-color: purple;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: darkpurple;
+  }
+  
+  .login-button-icon {
+    margin-left: 8px;
+  }
+  
+  .login-right {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .login-right {
+      display: flex;
+      width: 50%;
+      background: linear-gradient(to bottom, #1E3A8A, #D6A7F7, #8E44AD);
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .login-assistant-container {
+      text-align: center;
+    }
+  
+    .login-assistant-image {
+      width: 300px;
+      height: 300px;
+      margin-bottom: 16px;
+    }
+  
+    .login-assistant-text p {
+      font-size: 1.5rem;
+      color: white;
+      margin: 0;
+    }
+  }
+  
